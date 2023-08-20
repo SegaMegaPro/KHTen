@@ -1,5 +1,6 @@
 <template>
-  <the-main></the-main>
+  <router-view name="theMain"></router-view>
+  <router-view name="theProduct"></router-view>
 </template>
 
 <script lang="ts">
