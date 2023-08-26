@@ -1,6 +1,5 @@
 <template>
   <div class="productWrapper">
-    <div class="productSprite"></div>
     <h2 class="productTitle">Наша продукция</h2>
     <div class="productBlock1">
       <h3 class="productBlock1Title">Выращивается на открытом грунте</h3>
@@ -60,21 +59,15 @@ export default {
 
 <style scoped>
 .productWrapper{
+  background-image: url("@/assets/images/pepperinos.png");
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 715px;
   box-sizing: border-box;
   padding: 30px 100px;
-}
-.productSprite{
-  position: absolute;
-  background-image: url("@/assets/images/pepperinos.png");
-  background-size: 910px;
-  background-position: center;
-  left: 750px;
-  width: 769px;
-  height: 685px;
 }
 .productTitle{
   color: #04D100;
@@ -102,6 +95,7 @@ export default {
   height: 60px;
   text-align: left;
   margin-bottom: 45px;
+  align-items: center;
 }
 .productInfo svg{
   margin-right: 25px;

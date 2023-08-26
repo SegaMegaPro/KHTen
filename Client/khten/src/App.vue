@@ -1,6 +1,7 @@
 <template>
   <router-view name="theMain"></router-view>
   <router-view name="theProduct"></router-view>
+  <router-view name="theReason"></router-view>
 </template>
 
 <script lang="ts">
