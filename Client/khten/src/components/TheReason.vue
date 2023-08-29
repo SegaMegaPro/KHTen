@@ -1,7 +1,7 @@
 <template>
   <div class="reasonWrapper">
     <h2 class="reasonTitle">Почему КХ"Тен"?</h2>
-    <div class="reasonBlock">
+    <div class="reasonInfoWrapper">
       <div class="reasonInfo">
         <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M24.5986 13.4C26.9683 13.4 28.8893 11.5494 28.8893 9.26663C28.8893 6.98386 26.9683 5.1333 24.5986 5.1333C22.2289 5.1333 20.308 6.98386 20.308 9.26663C20.308 11.5494 22.2289 13.4 24.5986 13.4Z" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -87,7 +87,7 @@ export default {
   font-size: 40px;
   margin-bottom: 30px;
 }
-.reasonBlock{
+.reasonInfoWrapper{
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;

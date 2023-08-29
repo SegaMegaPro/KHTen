@@ -2,6 +2,7 @@
   <router-view name="theMain"></router-view>
   <router-view name="theProduct"></router-view>
   <router-view name="theReason"></router-view>
+  <router-view name="theContacts"></router-view>
 </template>
 
 <script lang="ts">
