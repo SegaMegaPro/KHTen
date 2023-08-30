@@ -1,8 +1,11 @@
 <template>
   <router-view name="theMain"></router-view>
-  <router-view name="theProduct"></router-view>
-  <router-view name="theReason"></router-view>
-  <router-view name="theContacts"></router-view>
+  <div class="mainContentWrapper">
+    <router-view name="theProduct"></router-view>
+    <router-view name="theReason"></router-view>
+    <router-view name="theContacts"></router-view>
+  </div>
+  <router-view name="theFooter"></router-view>
 </template>
 
 <script lang="ts">
@@ -20,5 +23,10 @@ body{
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
-
+.mainContentWrapper{
+  background-size: contain;
+  background: url("@/assets/images/contentBg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+}
 </style>

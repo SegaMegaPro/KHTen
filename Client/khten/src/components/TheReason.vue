@@ -71,9 +71,6 @@ export default {
 
 <style scoped>
 .reasonWrapper{
-  background-image: url("@/assets/images/pomidorros.png");
-  background-size: cover;
-  background-position: top;
   display: flex;
   flex-direction: column;
   width: 100%;

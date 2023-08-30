@@ -59,9 +59,6 @@ export default {
 
 <style scoped>
 .productWrapper{
-  background-image: url("@/assets/images/pepperinos.png");
-  background-size: cover;
-  background-position: center;
   display: flex;
   flex-direction: column;
   width: 100%;

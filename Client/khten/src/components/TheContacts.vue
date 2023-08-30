@@ -39,9 +39,6 @@ export default {
 
 <style scoped>
 .contactsWrapper{
-  background-image: url("@/assets/images/eggplant.png");
-  background-size: cover;
-  background-position: top;
   display: flex;
   flex-direction: column;
   width: 100%;
