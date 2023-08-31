@@ -59,6 +59,7 @@ export default {
 
 <style scoped>
 .productWrapper{
+  font-family: Montserrat,sans-serif;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -68,7 +69,6 @@ export default {
 }
 .productTitle{
   color: #04D100;
-  font-family: Montserrat,sans-serif;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -80,7 +80,6 @@ export default {
 .productBlock1Title{
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: Montserrat,sans-serif;
   font-size: 20px;
   width: 400px;
   height: 30px;

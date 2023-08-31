@@ -39,6 +39,7 @@ export default {
 
 <style scoped>
 .contactsWrapper{
+  font-family: Montserrat,sans-serif;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -48,7 +49,6 @@ export default {
 }
 .contactsTitle{
   color: #04D100;
-  font-family: Montserrat,sans-serif;
   font-size: 40px;
   margin-bottom: 30px;
 }

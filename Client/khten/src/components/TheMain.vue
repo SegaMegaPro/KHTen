@@ -27,6 +27,7 @@ export default {
 
 <style scoped>
 .mainWrapper{
+  font-family: Montserrat,sans-serif;
   display: flex;
   flex-direction: column;
   background-image: url("@/assets/images/mainBg.png");
@@ -46,7 +47,6 @@ export default {
 }
 .mainTitleKHTen h1{
   font-size: 128px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   align-self: center;
   margin-bottom: -30px;
@@ -54,13 +54,11 @@ export default {
 }
 .mainTitleKHTen h2{
   font-size: 36px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   align-self: center;
   margin-bottom: 0;
 }
 .mainSlogan{
-  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 500;
   text-align: center;
